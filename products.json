@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "矿泉水",
+    "image": "https://s21.ax1x.com/2025/03/12/pEUFQ6P.jpg",
+    "price": 3,
+    "discount": "5瓶包邮",
+    "category": "drinks",
+    "stock": 100
+  },
+  {
+    "id": 2,
+    "name": "可乐",
+    "image": "https://s21.ax1x.com/2025/03/12/pEUFQ6P.jpg",
+    "price": 4,
+    "discount": "3瓶包邮",
+    "category": "drinks",
+    "stock": 100
+  },
+  {
+    "id": 3,
+    "name": "薯片",
+    "image": "https://s21.ax1x.com/2025/03/12/pEUFQ6P.jpg",
+    "price": 8,
+    "discount": "满20元包邮",
+    "category": "snacks",
+    "stock": 100
+  },
+  {
+    "id": 4,
+    "name": "巧克力",
+    "image": "https://s21.ax1x.com/2025/03/12/pEUFQ6P.jpg",
+    "price": 12,
+    "discount": "满30元包邮",
+    "category": "snacks",
+    "stock": 100
+  },
+  {
+    "id": 5,
+    "name": "毛巾",
+    "image": "https://s21.ax1x.com/2025/03/12/pEUFQ6P.jpg",
+    "price": 25,
+    "discount": "满50元包邮",
+    "category": "daily",
+    "stock": 100
+  },
+  {
+    "id": 6,
+    "name": "洗发水",
+    "image": "https://s21.ax1x.com/2025/03/12/pEUFQ6P.jpg",
+    "price": 35,
+    "discount": "满60元包邮",
+    "category": "daily",
+    "stock": 100
+  },
+  {
+    "id": 7,
+    "name": "书本",
+    "image": "https://s21.ax1x.com/2025/03/12/pEUFQ6P.jpg",
+    "price": 45,
+    "discount": "满80元包邮",
+    "category": "other",
+    "stock": 100
+  },
+  {
+    "id": 8,
+    "name": "笔记本",
+    "image": "https://s21.ax1x.com/2025/03/12/pEUFQ6P.jpg",
+    "price": 15,
+    "discount": "满30元包邮",
+    "category": "other",
+    "stock": 100
+  }
+]
