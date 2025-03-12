@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "name": "矿泉水",
+    "name": "芒果汁",
     "image": "https://s21.ax1x.com/2025/03/12/pEUFQ6P.jpg",
     "price": 3,
     "discount": "5瓶包邮",
@@ -10,20 +10,20 @@
   },
   {
     "id": 2,
-    "name": "可乐",
-    "image": "https://s21.ax1x.com/2025/03/12/pEUFQ6P.jpg",
+    "name": "体力能量",
+    "image": "https://s21.ax1x.com/2025/03/13/pEUazAU.jpg",
     "price": 4,
-    "discount": "3瓶包邮",
+    "discount": "5瓶包邮",
     "category": "drinks",
     "stock": 100
   },
   {
     "id": 3,
-    "name": "薯片",
-    "image": "https://s21.ax1x.com/2025/03/12/pEUFQ6P.jpg",
+    "name": "苏打水",
+    "image": "https://s21.ax1x.com/2025/03/13/pEUdSNF.jpg",
     "price": 8,
     "discount": "满20元包邮",
-    "category": "snacks",
+    "category": "drink",
     "stock": 100
   },
   {
@@ -55,18 +55,18 @@
   },
   {
     "id": 7,
-    "name": "书本",
-    "image": "https://s21.ax1x.com/2025/03/12/pEUFQ6P.jpg",
-    "price": 45,
-    "discount": "满80元包邮",
+    "name": "宥马运动",
+    "image": "https://s21.ax1x.com/2025/03/13/pEUdph4.png",
+    "price": 150,
+    "discount": "满150元包邮",
     "category": "other",
     "stock": 100
   },
   {
     "id": 8,
-    "name": "笔记本",
-    "image": "https://s21.ax1x.com/2025/03/12/pEUFQ6P.jpg",
-    "price": 15,
+    "name": "网课全刷",
+    "image": "https://s21.ax1x.com/2025/03/13/pEUdP39.jpg",
+    "price": 70,
     "discount": "满30元包邮",
     "category": "other",
     "stock": 100
