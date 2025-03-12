@@ -1,1 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>商品展示</title>
+  <style>
+    /* 新增盒模型计算方式2 */
+    * {
+      box-sizing: border-box;
+    }
 
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0; /* 移除全局的左右间距 */
+      background-color: #f4f4f4;
+      display: flex;
+      flex-direction: column; /* 整体竖向布局 */
+      align-items: center; /* 垂直居中 */
+    }
+
+    .row {
+      display: flex; /* 横向布局 */
+      flex-wrap: wrap; /* 允许换行 */
+      width: 100%; /* 容器宽度为100% */
+      justify-content: center; /* 水平居中对齐 */
+      padding: 0 2%; /* 为两侧留出空间 */
+    }
+
+    .card {
+      display: flex;
+      flex-direction: column;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+      padding: 10px;
+      width: calc(50% - 4%); /* 每行两个卡片，减去左右间距 */
+      margin: 1% 2%; /* 设置卡片上下间距为1%，左右间距为2% */
+      box-sizing: border-box; /* 包括内边距和边框在内的宽度计算 */
+      text-align: center; /* 文本居中 */
+    }
+
+    .card img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 10px; /* 优化图片与价格信息的间距 */
+      object-fit: cover; /* 保持图片比例 */
+    }
+
+    .price-info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .price {
+      font-size: 16px;
+      color: #e4393c;
+      font-weight: bold;
+    }
+
+    .discount-info {
+      font-size: 12px;
+      color: #333;
+      background: #ffd700;
+      padding: 2px 6px;
+      border-radius: 4px;
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+<div id="container"></div>
+
+<script>
+  const products = [
+    { image: "https://s21.ax1x.com/2025/03/12/pEUFQ6P.jpg", price: "3元/瓶", discount: "5瓶包邮" },
+    { image: "https://s21.ax1x.com/2025/03/12/pEUFQ6P.jpg", price: "3元/瓶", discount: "5瓶包邮" },
+    { image: "https://s21.ax1x.com/2025/03/12/pEUFQ6P.jpg", price: "3元/瓶", discount: "5瓶包邮" },
+    { image: "https://s21.ax1x.com/2025/03/12/pEUFQ6P.jpg", price: "3元/瓶", discount: "5瓶包邮" },
+    // 可以继续添加更多商品数据
+  ];
+
+  const container = document.getElementById('container');
+
+  // 创建一个行容器
+  let row = document.createElement('div');
+  row.className = 'row';
+
+  products.forEach((product, index) => {
+    const card = document.createElement('div');
+    card.className = 'card';
+    card.innerHTML = `
+                <img src="${product.image}" alt="商品图片">
+                <div class="price-info">
+                    <div class="price">${product.price}</div>
+                    <div class="discount-info">${product.discount}</div>
+                </div>
+            `;
+
+    // 将卡片添加到当前行
+    row.appendChild(card);
+
+    // 每两个卡片换行
+    if ((index + 1) % 2 === 0) {
+      container.appendChild(row); // 将当前行添加到容器中
+      row = document.createElement('div'); // 创建新的行容器
+      row.className = 'row';
+    }
+  });
+
+  // 如果最后一行还有卡片，也添加到容器中
+  if (row.children.length > 0) {
+    container.appendChild(row);
+  }
+</script>
+</body>
+</html>
