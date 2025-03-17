@@ -33,7 +33,7 @@
     "price": 12,
     "discount": "满30元包邮",
     "category": "snacks",
-    "stock": 0
+    "stock": 100
   },
   {
     "id": 5,
@@ -42,7 +42,7 @@
     "price": 25,
     "discount": "满50元包邮",
     "category": "daily",
-    "stock": 0
+    "stock": 100
   },
   {
     "id": 6,
@@ -51,7 +51,7 @@
     "price": 35,
     "discount": "满60元包邮",
     "category": "daily",
-    "stock": 0
+    "stock": 100
   },
   {
     "id": 7,
