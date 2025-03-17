@@ -21,7 +21,7 @@
     "id": 3,
     "name": "苏打水",
     "image": "https://s21.ax1x.com/2025/03/13/pEUdSNF.jpg",
-    "price": 8,
+    "price": 2,
     "discount": "满20元包邮",
     "category": "drinks",
     "stock": 100
@@ -33,7 +33,7 @@
     "price": 12,
     "discount": "满30元包邮",
     "category": "snacks",
-    "stock": 100
+    "stock": 0
   },
   {
     "id": 5,
@@ -42,7 +42,7 @@
     "price": 25,
     "discount": "满50元包邮",
     "category": "daily",
-    "stock": 100
+    "stock": 0
   },
   {
     "id": 6,
@@ -51,7 +51,7 @@
     "price": 35,
     "discount": "满60元包邮",
     "category": "daily",
-    "stock": 100
+    "stock": 0
   },
   {
     "id": 7,
@@ -71,4 +71,13 @@
     "category": "other",
     "stock": 100
   }
+   {
+    "id": 9,
+    "name": "茶Π",
+    "image": "https://s21.ax1x.com/2025/03/13/pEUazAU.jpg",
+    "price": 4,
+    "discount": "5瓶包邮",
+    "category": "drinks",
+    "stock": 100
+  },
 ]
